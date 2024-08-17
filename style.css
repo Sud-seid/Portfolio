@@ -437,8 +437,8 @@ span{
 }
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.0rem;
 }
 .testmonials-item{
     min-height: 45rem;
@@ -447,7 +447,8 @@ span{
     border: 3px solid  rgb(238, 238, 238, 0.2);
     border-radius: 2rem;
     margin: 0 2rem;
-    padding: 30px 60px;
+    padding: 25px 40px;
+    padding-bottom: 3rem;
     cursor: pointer;
     display: flex;
     flex-direction: column;
