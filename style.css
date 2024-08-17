@@ -76,6 +76,8 @@ section{
     padding: 10rem 12% 10rem;
 }
 .home{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +133,7 @@ span{
                 0 0 100px var(--main-color);
 }
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
@@ -346,7 +348,7 @@ span{
 }
 .timeline-content p{
     color: white;
-    font-size: 16px;
+    font-size: 1.8rem;
     font-weight: 300;
     line-height: 22px;
 }
@@ -378,7 +380,7 @@ span{
 .service-box{
     background-color: var(--second-bg-color);
     color: white;
-    height: 300px;
+    height: 40rem;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
@@ -408,8 +410,8 @@ span{
     line-height: 2;
 }
 .service-info p{
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 500;
     max-height: 100px;
     line-height: 1.7;
     margin: auto;
@@ -465,7 +467,7 @@ span{
     font-size: 2.8rem;
 }
 .testmonials-item p{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .rating {
     display: flex;
@@ -586,6 +588,9 @@ span{
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
     }
+    .testmonials-item p{
+        font-size: 1.2rem;
+    }
 }
 @media(max-width:991px){
     header{
@@ -613,6 +618,9 @@ span{
     }
     .testmonials .wrapper{
         grid-template-columns: repeat(1,1fr);
+    }
+    .testmonials-item p{
+        font-size: 1.6rem;
     }
     .contact form{
         flex-direction: column;
@@ -670,6 +678,7 @@ span{
     .service-container{
         grid-template-columns: repeat(1,1fr);
     }
+
 }
 @media(max-width: 1024px) {
     .home {
@@ -693,6 +702,12 @@ span{
     .home-content p {
         font-size: 1.8rem; 
     }
+    .testmonials-item p{
+        font-size: 1.6rem;
+    }
+    /* .service-box{
+        height: 24rem;
+    } */
 }
 @media(max-width: 768px) {
     .home {
@@ -724,7 +739,34 @@ span{
     }
 
     .home-content p {
-        font-size: 1.6rem; 
+        font-size: 1.8rem; 
         max-width: 100%; 
+    }
+    .education h2 {
+        font-size: 4rem; 
+        padding-top: 0;
+    }
+    .service h2 {
+        font-size: 4rem; 
+        padding-top: 0;
+    }
+    .testmonials h2 {
+        font-size: 4rem; 
+        padding-top: 0;
+    }
+    .contact h2 {
+        font-size: 4rem; 
+        padding-top: 0;
+    }
+    .service-info h4 {
+        font-size: 2.5rem; 
+        padding-top: 0;
+    }
+    .education h3 {
+        font-size: 2rem; 
+        font-weight: 600;
+    }
+    .service-box{
+        height: 30rem;
     }
 }
